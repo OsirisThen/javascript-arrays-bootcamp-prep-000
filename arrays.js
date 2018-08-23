@@ -10,3 +10,9 @@ function addElementToBeginningOfArray(array, element){
   return array;
   array.shift();
 }
+
+function addElementToBeginningOfArray(array, element){
+
+  array.shift();
+  return array;
+}
