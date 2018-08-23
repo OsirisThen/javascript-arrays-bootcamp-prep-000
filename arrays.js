@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function addElementToBeginningOfArray(array, element){
-  
+
   array.slice(1);
   return array;
 }
