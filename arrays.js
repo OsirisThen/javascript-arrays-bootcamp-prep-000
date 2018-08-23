@@ -8,5 +8,5 @@ function addElementToBeginningOfArray(array, element){
 
   let newArray = array;
    newArray.unshift(element);
- return newArray;
+ return array;
 }
