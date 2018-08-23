@@ -30,3 +30,8 @@ function accessElementInArray(array, index){
   var first = array[index]
   return first;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array, element){
+   array.shift();
+   return array;
+}
