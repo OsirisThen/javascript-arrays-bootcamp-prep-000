@@ -8,6 +8,12 @@ function addElementToBeginningOfArray(array, element){
   return array;
 }
 
+function addElementToBeginningOfArray(array, element){
+  
+  array.slice(1);
+  return array;
+}
+
 function destructivelyAddElementToBeginningOfArray(array, element){
 
   let newArray = array;
