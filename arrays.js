@@ -12,6 +12,6 @@ function addElementToBeginningOfArray(array, element){
 
 function addElementToBeginningOfArray(array, element){
 
-  array.shift();
+
   return array;
 }
